@@ -1,6 +1,7 @@
 class Hero:
 
     def __init__(self, inputName, inputHealth, inputPower, inputArmor):
+        #instance variable
         self.name = inputName
         self.health = inputHealth
         self.power = inputPower
@@ -13,3 +14,4 @@ hero3 = Hero("Atlas", 500, 15, 9)
 print(hero1.__dict__)
 print(hero2.__dict__)
 print(hero3.__dict__)
+print(hero3.health)
